@@ -1,0 +1,4 @@
+Selector{
+    Property:value;
+    Property:value;
+}
