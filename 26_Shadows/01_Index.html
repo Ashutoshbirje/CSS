@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            /* acsses anyware */
+            --variable-width:100px;
+        }
+        .container{
+            /* variable */
+            --veriable:brown;
+            background-color: beige;
+            height: 650px;
+            width: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: aquamarine;
+            width: 330px;
+            height: 330px;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+            /* 
+               offset x --->  along horizontal
+               offset y --->  along vertical
+                            (-ve y) |
+                                    |
+                (-ve x)             |            (+ve x)
+                <-------------------|------------------->                    |
+                                    |
+                                    |
+                            (+ve y) |
+            */
+            /*  box-shadow:offset-x offset-y color */
+            box-shadow: 10px 10px var(--veriable);
+            /*  box-shadow:offset-x offset-y blur radius color */
+            box-shadow: 10px 10px 25px var(--veriable);               
+            /*  box-shadow:offset-x offset-y blurradius sprade radius color */
+            /* box-shadow: 10px 10px 25px 10px blue;  
+            /*  box-shadow:inset offset-x offset-y blurradius sprade radius color */
+            /* box-shadow: inset 10px 10px 25px 10px blue;   */
+            /*  box-shadow:(),()........ */
+            /* box-shadow: 25px 10px blue,25px 11px red;   */ 
+        }
+        img{
+            height: 50px;
+            width: 100px;
+        }
+        h2{
+            /* text-shadow:x-offset y-offset blur-radius color */
+            text-shadow: 2px 3px 2px red;
+            /* text-shadow: color x-offset y-offset blur-radius*/
+            text-shadow: red 2px 3px 2px ;
+            /* text-shadow: color x-offset y-offset */
+            text-shadow: red 2px 3px;
+            /* text-shadow: x-offset y-offset */
+            text-shadow: 2px 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./LOGO.png" alt="picture">
+            <h2>Welcome to CSS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloremque optio mollitia, sapiente quas itaque possimus, inventore sunt quaerat dolore exercitationem magni sint, odit eum. Quos maiores et possimus corrupti.</p>
+        </div>
+    </div>
+</body>
+</html>

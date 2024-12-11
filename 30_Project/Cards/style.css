@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    height: 500px;
+    width:300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Qr{
+    background-color: rgb(22, 220, 210);
+    padding: 20px;
+    border-radius: 10px;
+    height: 60%;
+}

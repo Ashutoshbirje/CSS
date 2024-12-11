@@ -1,0 +1,13 @@
+/*border-property: top right bottom left*/
+h1{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: aqua;
+    border: 5px dashed aqua;
+}
+p{
+    border-top-style: dashed;
+    border-left-style:dotted;
+    border-bottom-style:groove;
+    border-right-style:double;
+}

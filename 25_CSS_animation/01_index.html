@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: beige;
+        border: 5px solid black;
+      }
+      .box1 {
+        width: 350px;
+        height: 80px;
+        background-color: blue;
+        border-radius: 10px;
+        margin: 10px;
+        border: 2px solid yellowS;
+        position: relative;
+        animation-name: rightmove;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+       }
+       @keyframes rightmove{
+         from{
+            top:0;
+            left:0;
+         }
+         to{
+           top:0;
+           left:1150px;
+         }
+       }
+       .box2 {
+        width: 350px;
+        height: 80px;
+        background-color: blue;
+        border-radius: 10px;
+        margin: 10px;
+        border: 2px solid yellowS;
+        position: relative;
+        animation: 5s linear 1s infinite alternate none running leftmove;
+       }
+       @keyframes leftmove{
+         from{
+            top:600px;
+            right:1150px;
+         }
+         to{
+           top:0px;
+           left:0;
+         }
+       }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1"></div>
+      <!-- pending -->
+      <div class="box2"></div>
+    </div>
+  </body>
+</html>

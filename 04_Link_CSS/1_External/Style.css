@@ -1,0 +1,12 @@
+h1{
+    font-size: 100rmp;
+    background-color: orange;
+}
+pre{
+    background-color: aquamarine;
+}
+#first{
+    text-align: center;
+    margin:30px;
+    padding: 10px;
+}

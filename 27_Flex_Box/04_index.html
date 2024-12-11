@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: beige;
+        border: 5px solid black;
+        margin: 2px;
+        padding: 2px;
+        height: 800px;
+        display: flex;
+       
+        /* To show direction of flex box */
+        /* flex-direction:column-reverse/column/row/row-reverse; */
+      
+        /* To align content after reducing display size */
+        /* flex-wrap: wrap-reverse/nowrap/wrap; */
+       
+        /* To place content along the main axies */
+        /* justify-content:space-evenly/space-around/space-between/flex-end/flex-start/center; */
+       
+        /* To place content along the cross axies */
+        /* align-items: baseline/center/flex-end/flex-start/stretch; */
+       
+        /* to centrlize item */
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        /* align-content: center; */
+
+        /* to handle place b/w item */
+        /* flex-wrap:wrap;
+        justify-content:start;
+        align-items: start;
+        align-content: start; */
+    }  
+      .box{
+        /* height: 200px; */
+        /* width: 200px; */
+        border: 1px solid black;
+        margin: 2px;
+        padding: 2px;
+      }
+      #Box1{
+        background-color: aqua;
+        /* order:1; */
+        /* flex-basis: 20px; */
+        align-self: flex-start;
+
+      }
+      #Box2{
+        background-color: blue;
+        /* order:2; */
+        align-self: flex-end;
+      }
+      #Box3{
+        background-color: orange;
+        align-self:center;
+      }
+      #Box4{
+        background-color: brown;
+        align-self: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="Box1">Box1</div>
+      <div class="box" id="Box2">Box2</div>
+      <div class="box" id="Box3">Box3</div>
+      <div class="box" id="Box4">Box4</div>
+    </div>
+  </body>
+</html>

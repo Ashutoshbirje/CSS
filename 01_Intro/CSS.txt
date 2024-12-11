@@ -1,0 +1,6 @@
+# CSS (Cascading Style Sheets)
+--> to style an HTML document
+selector{
+    Property:value;
+    Property:value;
+}

@@ -1,0 +1,45 @@
+#first{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color:aqua;
+}
+#second{
+    /* margin [T] [R] [B] [L] */
+    text-align: center;
+    margin: 10px 20px 30px 40px;
+    background-color:aquamarine;
+}
+#third{
+    /* margin [T] [R] [B]
+       margin [T] [R] [B] [R] */
+    text-align: center;
+    margin: 10px 20px 30px ;
+    background-color:brown;
+}
+#four{
+    /* margin [T] [R] 
+       margin [T] [R] [T] [R] */
+    text-align: center;
+    margin: 10px 20px;
+    background-color:blue;
+}
+#five{
+    /* margin [T]  
+       margin [T] [T] [T] [T] */
+    text-align: center;
+    margin: 10px;
+    background-color:burlywood;
+}
+.Six{
+    text-align: center;
+    margin:auto;
+    background-color:rgb(236, 19, 19);
+}
+p.Six{
+    text-align: center;
+    margin:inherit;
+    background-color:rgb(236, 19, 19);
+}

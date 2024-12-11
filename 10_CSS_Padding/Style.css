@@ -1,0 +1,40 @@
+#first{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding: 40px;
+    background-color:aqua;
+}
+#second{
+    /* padding T R B L */
+    text-align: center;
+    padding: 10px 20px 30px 40px;
+    background-color:aquamarine;
+}
+#third{
+    /* padding T [R] B
+       padding T [R] B [R] */
+    text-align: center;
+    margin: 10px 20px 30px ;
+    background-color:brown;
+}
+#four{
+    /* padding [T] [R] 
+       padding [T] [R] [T] [R] */
+    text-align: center;
+    padding: 10px 20px;
+    background-color:blue;
+}
+#five{
+    /* padding [T]  
+       padding [T] [T] [T] [T] */
+    text-align: center;
+    padding: 10px;
+    background-color:burlywood;
+}
+#Six{
+    text-align: center;
+    padding:inherit;
+    background-color:rgb(236, 19, 19);
+}

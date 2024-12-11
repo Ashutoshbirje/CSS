@@ -1,0 +1,32 @@
+/* Element selector*/ 
+p{
+    background-color: antiquewhite;
+}
+
+/* id selector  */
+#id{
+    background-color: antiquewhite;
+}
+
+/* Class selector */
+.class{
+    background-color: antiquewhite;
+}
+h1.class{
+    background-color: antiquewhite;
+}
+
+/* Attribute selector */
+p[draggable]{
+    background-color: antiquewhite;
+}
+
+/* universal selector */
+*{
+    background-color: antiquewhite;
+}
+
+/* Group selector */
+p,h1,h2{
+    background-color: antiquewhite;
+}

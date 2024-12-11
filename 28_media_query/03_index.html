@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: beige;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .item1{
+            display: flex;
+            background-color: aqua;
+            flex-direction: column;
+            padding: 100px;
+            box-sizing: border-box;
+        }
+        .txt1{
+            background-color: beige;
+            padding: 10px;
+            margin: 5px;
+        }
+        .txt2{
+            background-color: beige;
+            padding: 10px;
+            margin: 5px;
+        }
+        .item2{
+            background-color: rgb(26, 255, 0);
+            box-sizing: border-box;
+        }
+        img{
+            padding: 100px;
+            height: 400px;
+            width: 400px;
+        }
+        @media (max-width:640px){
+            .container{flex-direction: column;}
+            .item2{
+                flex-basis: auto;
+            }
+            img{
+                padding: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+          <div class="txt1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas labore dicta ipsum itaque deserunt mollitia blanditiis, error vitae deleniti commodi dignissimos enim! Iure laboriosam, labore veritatis nesciunt soluta nam.</div>
+          <div class="txt2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem cumque odio laudantium praesentium. Unde quisquam velit neque eaque tenetur ipsam autem magnam dolor maxime aut. Officia, harum. Quaerat, veniam cupiditate.</div>
+        </div>
+        <div class="item2">
+            <img src="./IMAGE 1.jpeg" alt="pc">
+        </div>
+    </div>
+</body>
+</html>
